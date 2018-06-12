@@ -1,0 +1,21 @@
+body {
+    background-color: pink;
+    color: olivedrab;
+}
+
+.img {
+    background-image: url(../images/a.png);
+    width: 545px;
+    height: 199px;
+    display: flex;
+    animation: haha 1s 1s ease both;
+}
+
+@keyframes haha {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translatey(-50%);
+    }
+}
